@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Strasbourg Piscines",
+        "description": "Chargement de la liste des piscines en temps réel de l'Eurométropole de Strasbourg."
+      },
+      "select": {
+        "title": "Piscines à suivre",
+        "description": "Choisissez les piscines pour lesquelles créer des capteurs. Les données sont relevées sur la source publique en temps réel au plus toutes les trois minutes.",
+        "data": {
+          "pools": "Piscines",
+          "scan_interval": "Intervalle d'actualisation (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de joindre le portail Open Data de Strasbourg.",
+      "select_pool": "Sélectionnez au moins une piscine."
+    },
+    "abort": {
+      "single_instance_allowed": "Strasbourg Piscines est déjà configuré."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Strasbourg Piscines",
+        "description": "Modifiez les piscines suivies ou l'intervalle d'actualisation.",
+        "data": {
+          "pools": "Piscines",
+          "scan_interval": "Intervalle d'actualisation (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de joindre le portail Open Data de Strasbourg.",
+      "select_pool": "Sélectionnez au moins une piscine."
+    }
+  }
+}

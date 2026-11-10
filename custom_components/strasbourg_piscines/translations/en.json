@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Strasbourg Piscines",
+        "description": "Loading the live pool list from the Strasbourg Eurometropolis."
+      },
+      "select": {
+        "title": "Pools to monitor",
+        "description": "Choose the pools for which to create sensors. Data is collected from the public real-time source every three minutes at most.",
+        "data": {
+          "pools": "Pools",
+          "scan_interval": "Update interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to Strasbourg's Open Data portal.",
+      "select_pool": "Select at least one pool."
+    },
+    "abort": {
+      "single_instance_allowed": "Strasbourg Piscines is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Strasbourg Piscines",
+        "description": "Change the monitored pools or update interval.",
+        "data": {
+          "pools": "Pools",
+          "scan_interval": "Update interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to Strasbourg's Open Data portal.",
+      "select_pool": "Select at least one pool."
+    }
+  }
+}

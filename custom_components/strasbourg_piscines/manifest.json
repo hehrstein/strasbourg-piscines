@@ -1,0 +1,12 @@
+{
+  "domain": "strasbourg_piscines",
+  "name": "Strasbourg Piscines",
+  "codeowners": ["@hehrstein"],
+  "config_flow": true,
+  "documentation": "https://github.com/hehrstein/strasbourg-piscines",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/hehrstein/strasbourg-piscines/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

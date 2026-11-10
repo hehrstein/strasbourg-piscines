@@ -1,0 +1,25 @@
+{
+  "total_count": 2,
+  "results": [
+    {
+      "name": "Centre nautique de Schiltigheim",
+      "sigid": "401_SPO_2",
+      "realtimestatus": "GREEN",
+      "isopen": 1,
+      "occupation": 62,
+      "dayschedule": "[{\"closingMinute\": 0, \"openingHour\": 6, \"closingHour\": 19, \"openingMinute\": 30}]",
+      "updatedate": "2026-11-10 10:12:22",
+      "types": "Cat_06_05"
+    },
+    {
+      "name": "Piscine de Hautepierre",
+      "sigid": "402_SPO_3",
+      "realtimestatus": "CLOSED",
+      "isopen": 0,
+      "occupation": null,
+      "dayschedule": null,
+      "updatedate": "2026-11-10 10:12:22",
+      "types": "Cat_06_05"
+    }
+  ]
+}
