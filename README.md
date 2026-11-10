@@ -30,6 +30,37 @@ source), `today_schedule`, `source_updated_at` (horodatage fourni par
 l'Eurométropole) et `data_fetched_at` (réception de la réponse par Home
 Assistant). Ces deux horodatages restent volontairement distincts.
 
+## Carte Lovelace Strasbourg Piscines
+
+Une carte Lovelace est fournie avec l'intégration. Elle affiche clairement
+l'ouverture, le niveau d'affluence et les horaires du jour pour les piscines
+choisies.
+
+Après l'installation ou la mise à jour de l'intégration et un redémarrage de
+Home Assistant, ajoutez une seule fois cette ressource dans
+**Paramètres → Tableaux de bord → Ressources** :
+
+```text
+URL : /strasbourg_piscines/strasbourg-piscines-card.js
+Type : Module JavaScript
+```
+
+Ajoutez ensuite une carte manuelle au tableau de bord :
+
+```yaml
+type: custom:strasbourg-piscines-card
+title: Piscines autour de moi
+entities:
+  - sensor.strasbourg_centre_nautique_de_schiltigheim_affluence
+  - sensor.strasbourg_piscine_de_hautepierre_affluence
+max_rows: 4
+show_schedule: true
+```
+
+Utilisez les entités **Affluence** créées par l'intégration. Les options
+`title`, `max_rows` et `show_schedule` sont facultatives. Vous pouvez aussi
+configurer une seule entité avec la clé `entity`.
+
 ## Installation avec HACS
 
 Tant que le dépôt n'est pas dans le catalogue HACS par défaut :

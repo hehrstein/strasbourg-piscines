@@ -7,6 +7,8 @@ from homeassistant.const import Platform
 
 DOMAIN: Final = "strasbourg_piscines"
 NAME: Final = "Strasbourg Piscines"
+LOVELACE_CARD_URL: Final = f"/{DOMAIN}/strasbourg-piscines-card.js"
+DATA_LOVELACE_CARD_REGISTERED: Final = "lovelace_card_registered"
 DATA_ATTRIBUTION: Final = "Données issues de l'Eurométropole de Strasbourg"
 DATA_SOURCE_URL: Final = (
     "https://data.strasbourg.eu/explore/dataset/"
