@@ -63,14 +63,20 @@ configurer une seule entité avec la clé `entity`.
 
 ## Installation avec HACS
 
-Tant que le dépôt n'est pas dans le catalogue HACS par défaut :
+1. Dans **HACS → Intégrations**, recherchez **Strasbourg Piscines**.
+2. Installez l'intégration, puis redémarrez Home Assistant.
+3. Dans **Paramètres → Appareils et services**, ajoutez l'intégration et
+   sélectionnez les piscines à suivre.
+
+### Dépôt personnalisé (solution de secours)
+
+Si l'intégration n'apparaît pas encore dans la recherche HACS :
 
 1. Dans **HACS → Intégrations**, ouvrez le menu ⋮ puis **Dépôts personnalisés**.
 2. Ajoutez `https://github.com/hehrstein/strasbourg-piscines`, catégorie
    **Integration**.
-3. Installez **Strasbourg Piscines**, puis redémarrez Home Assistant.
-4. Dans **Paramètres → Appareils et services**, ajoutez l'intégration et
-   sélectionnez les piscines à suivre.
+3. Recherchez ensuite **Strasbourg Piscines**, installez-la, puis redémarrez
+   Home Assistant.
 
 ## Source et fraîcheur
 
